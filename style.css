@@ -73,10 +73,14 @@ body {
     width: 28%;
     min-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
 }
-
+.contact_text{
+    margin-top: 50px;
+}
 .contact_text_ {
     color: rgb(142, 142, 142);
+    margin-top: -15px;
 }
 
 /*Education*/
