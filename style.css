@@ -22,7 +22,7 @@ body {
 
 #title_text {
     padding-left: 5vw;
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
 }
 
@@ -51,7 +51,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(101, 101, 101);
-    border-radius: 20px;
+    border-radius: 13px;
     width: 60%;
     min-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -69,7 +69,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(101, 101, 101);
-    border-radius: 20px;
+    border-radius: 13px;
     width: 28%;
     min-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -89,13 +89,21 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(101, 101, 101);
-    border-radius: 20px;
+    border-radius: 13px;
     width: 28%;
     min-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: white;
 }
 .education:hover{
+    transition: 0.3s;
+    background-color: rgb(78, 78, 78);
+}
+.goal:hover{ 
+    transition: 0.3s;
+    background-color: rgb(78, 78, 78);
+}
+.contact:hover{
     transition: 0.3s;
     background-color: rgb(78, 78, 78);
 }
@@ -146,7 +154,7 @@ a{
 @media screen and (max-width: 855px) {
     .main {
         border: 1px solid rgba(255, 0, 0, 0);
-
+        width: 98%;
     }
 
     .goal {
