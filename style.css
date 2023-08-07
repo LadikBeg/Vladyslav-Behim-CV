@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(138, 138, 138);
+    background-color: rgb(181, 181, 181);
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -50,7 +50,7 @@ body {
 .goal {
     display: flex;
     flex-direction: column;
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(101, 101, 101);
     border-radius: 20px;
     width: 60%;
     min-width: 250px;
@@ -68,7 +68,7 @@ body {
 .contact {
     display: flex;
     flex-direction: column;
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(101, 101, 101);
     border-radius: 20px;
     width: 28%;
     min-width: 250px;
@@ -88,12 +88,16 @@ body {
 .education {
     display: flex;
     flex-direction: column;
-    background-color: rgb(162, 162, 162);
+    background-color: rgb(101, 101, 101);
     border-radius: 20px;
     width: 28%;
     min-width: 250px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     color: white;
+}
+.education:hover{
+    transition: 0.3s;
+    background-color: rgb(78, 78, 78);
 }
 
 /*Project and portfol*/
